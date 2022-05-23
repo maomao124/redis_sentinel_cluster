@@ -1,0 +1,96 @@
+2022-05-23 13:11:04.320 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+2022-05-23 13:11:04.322 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2022-05-23 13:11:04.325 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-05-23 13:11:04.333 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+2022-05-23 13:11:04.347 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-05-23 13:11:04.348 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+2022-05-23 13:11:04.349 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-05-23 13:11:04.349 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+2022-05-23 13:11:04.349 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2022-05-23 13:11:04.350 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+2022-05-23 13:11:04.350 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-05-23 13:11:04.351 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+2022-05-23 13:11:04.351 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2022-05-23 13:11:04.353 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-05-23 13:11:04.372 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'errorPageCustomizer'
+2022-05-23 13:11:04.373 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2022-05-23 13:11:04.373 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+2022-05-23 13:11:04.374 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dispatcherServletRegistration'
+2022-05-23 13:11:04.374 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2022-05-23 13:11:04.375 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'dispatcherServlet'
+2022-05-23 13:11:04.375 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2022-05-23 13:11:04.376 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-05-23 13:11:04.381 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-05-23 13:11:04.390 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+2022-05-23 13:11:04.391 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+2022-05-23 13:11:04.392 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'multipartConfigElement'
+2022-05-23 13:11:04.392 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2022-05-23 13:11:04.393 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2022-05-23 13:11:04.397 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2022-05-23 13:11:04.403 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2022-05-23 13:11:04.445 DEBUG 18484 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol port=8080)
+2022-05-23 13:11:04.452 DEBUG 18484 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol bindOnInit=false)
+2022-05-23 13:11:04.453 DEBUG 18484 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint bindOnInit=false)
+2022-05-23 13:11:04.456 DEBUG 18484 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol maxPostSize=2097152)
+2022-05-23 13:11:04.456 DEBUG 18484 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint maxPostSize=2097152)
+2022-05-23 13:11:04.466 DEBUG 18484 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardHost[localhost] StandardEngine[Tomcat]
+2022-05-23 13:11:04.466 DEBUG 18484 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\mao\.m2\repository\org\springframework\boot\spring-boot\2.7.0\spring-boot-2.7.0.jar
+2022-05-23 13:11:04.467 DEBUG 18484 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\mao\.m2\repository\org\springframework\boot\spring-boot\2.7.0\spring-boot-2.7.0.jar
+2022-05-23 13:11:04.467 DEBUG 18484 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-05-23 13:11:04.481 DEBUG 18484 --- [main] org.apache.catalina.core.ContainerBase   : Add child TomcatEmbeddedContext[] StandardEngine[Tomcat].StandardHost[localhost]
+2022-05-23 13:11:04.484  INFO 18484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-23 13:11:04.491 DEBUG 18484 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol parseBodyMethods=POST)
+2022-05-23 13:11:04.491 DEBUG 18484 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint parseBodyMethods=POST)
+2022-05-23 13:11:04.492  INFO 18484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-23 13:11:04.492  INFO 18484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-23 13:11:04.494 DEBUG 18484 --- [main] o.apache.catalina.core.StandardContext   : Starting ROOT
+2022-05-23 13:11:04.499 DEBUG 18484 --- [main] o.apache.catalina.core.StandardContext   : Configuring default Resources
+2022-05-23 13:11:04.526 DEBUG 18484 --- [main] o.apache.catalina.core.StandardContext   : Processing standard container startup
+2022-05-23 13:11:04.527 DEBUG 18484 --- [main] org.apache.catalina.loader.WebappLoader  : Starting this Loader
+2022-05-23 13:11:04.572 DEBUG 18484 --- [main] o.a.c.authenticator.AuthenticatorBase    : No SingleSignOn Valve is present
+2022-05-23 13:11:04.573 DEBUG 18484 --- [main] o.apache.catalina.core.StandardContext   : No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+2022-05-23 13:11:04.576 DEBUG 18484 --- [main] o.apache.catalina.core.StandardContext   : Configured a manager of class [org.apache.catalina.session.StandardManager]
+2022-05-23 13:11:04.583  INFO 18484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-23 13:11:04.583 DEBUG 18484 --- [main] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-05-23 13:11:04.583  INFO 18484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 828 ms
+2022-05-23 13:11:04.586 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'requestContextFilter'
+2022-05-23 13:11:04.587 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'formContentFilter'
+2022-05-23 13:11:04.588 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2022-05-23 13:11:04.590 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'characterEncodingFilter'
+2022-05-23 13:11:04.595 DEBUG 18484 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-05-23 13:11:04.595 DEBUG 18484 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2022-05-23 13:11:04.596 DEBUG 18484 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardWrapper[dispatcherServlet] StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]
+2022-05-23 13:11:04.607 DEBUG 18484 --- [main] o.apache.catalina.core.StandardContext   : Configuring application event listeners
+2022-05-23 13:11:04.607 DEBUG 18484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Sending application start events
+2022-05-23 13:11:04.608 DEBUG 18484 --- [main] o.a.catalina.session.StandardManager     : Start: Loading persisted sessions
+2022-05-23 13:11:04.609 DEBUG 18484 --- [main] o.a.catalina.session.StandardManager     : Loading persisted sessions from [SESSIONS.ser]
+2022-05-23 13:11:04.609 DEBUG 18484 --- [main] o.a.catalina.session.StandardManager     : No persisted data file found
+2022-05-23 13:11:04.609 DEBUG 18484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Starting filters
+2022-05-23 13:11:04.609 DEBUG 18484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'requestContextFilter'
+2022-05-23 13:11:04.611 DEBUG 18484 --- [main] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2022-05-23 13:11:04.611 DEBUG 18484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2022-05-23 13:11:04.612 DEBUG 18484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'characterEncodingFilter'
+2022-05-23 13:11:04.612 DEBUG 18484 --- [main] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2022-05-23 13:11:04.612 DEBUG 18484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'formContentFilter'
+2022-05-23 13:11:04.612 DEBUG 18484 --- [main] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2022-05-23 13:11:04.612 DEBUG 18484 --- [main] o.apache.catalina.core.StandardContext   : Starting completed
+2022-05-23 13:11:04.614 DEBUG 18484 --- [main] org.apache.catalina.mapper.Mapper        : Registered host [localhost]
+2022-05-23 13:11:04.615 DEBUG 18484 --- [main] o.apache.catalina.mapper.MapperListener  : Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2022-05-23 13:11:04.615 DEBUG 18484 --- [main] o.apache.catalina.mapper.MapperListener  : Register Context [] for service [StandardService[Tomcat]]
+2022-05-23 13:11:04.616 DEBUG 18484 --- [main] o.apache.catalina.mapper.MapperListener  : Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2022-05-23 13:11:04.620 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisSentinelClusterApplication'
+2022-05-23 13:11:04.621 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisConfig'
+2022-05-23 13:11:04.621 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisTestController'
+2022-05-23 13:11:04.624 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'stringRedisTemplate'
+2022-05-23 13:11:04.625 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration'
+2022-05-23 13:11:04.625 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisConnectionFactory'
+2022-05-23 13:11:04.625 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration'
+2022-05-23 13:11:04.626 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties'
+2022-05-23 13:11:04.631 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' via constructor to bean named 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties'
+2022-05-23 13:11:04.632 DEBUG 18484 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'lettuceClientResources'
+2022-05-23 13:11:04.634 DEBUG 18484 --- [main] i.n.u.i.logging.InternalLoggerFactory    : Using SLF4J as the default logging framework
+2022-05-23 13:11:04.636 DEBUG 18484 --- [main] i.l.c.r.AddressResolverGroupProvider     : Starting without optional netty's non-blocking DNS resolver library
+2022-05-23 13:11:04.637 DEBUG 18484 --- [main] i.l.c.resource.DefaultClientResources    : -Dio.netty.eventLoopThreads: 16
+2022-05-23 13:11:04.642 DEBUG 18484 --- [main] i.l.c.r.DefaultEventLoopGroupProvider    : Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2022-05-23 13:11:04.654 DEBUG 18484 --- [main] i.n.u.internal.InternalThreadLocalMap    : -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-23 13:11:04.654 DEBUG 18484 --- [main] i.n.u.internal.InternalThreadLocalMap    : -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
