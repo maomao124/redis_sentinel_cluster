@@ -1,0 +1,128 @@
+2022-05-23 13:25:00.417 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'multipartConfigElement'
+2022-05-23 13:25:00.423 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2022-05-23 13:25:00.424 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2022-05-23 13:25:00.430 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+2022-05-23 13:25:00.439 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+2022-05-23 13:25:00.588 DEBUG 12428 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol port=8080)
+2022-05-23 13:25:00.598 DEBUG 12428 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol bindOnInit=false)
+2022-05-23 13:25:00.599 DEBUG 12428 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint bindOnInit=false)
+2022-05-23 13:25:00.604 DEBUG 12428 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol maxPostSize=2097152)
+2022-05-23 13:25:00.605 DEBUG 12428 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint maxPostSize=2097152)
+2022-05-23 13:25:00.623 DEBUG 12428 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardHost[localhost] StandardEngine[Tomcat]
+2022-05-23 13:25:00.623 DEBUG 12428 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: H:\程序\大三下期\redis哨兵集群\target\redis_sentinel_cluster-0.0.1-SNAPSHOT.jar
+2022-05-23 13:25:00.624 DEBUG 12428 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: H:\程序\大三下期\redis哨兵集群\target\redis_sentinel_cluster-0.0.1-SNAPSHOT.jar
+2022-05-23 13:25:00.624 DEBUG 12428 --- [main] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-05-23 13:25:00.644 DEBUG 12428 --- [main] org.apache.catalina.core.ContainerBase   : Add child TomcatEmbeddedContext[] StandardEngine[Tomcat].StandardHost[localhost]
+2022-05-23 13:25:00.650  INFO 12428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-23 13:25:00.661 DEBUG 12428 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol parseBodyMethods=POST)
+2022-05-23 13:25:00.662 DEBUG 12428 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint parseBodyMethods=POST)
+2022-05-23 13:25:00.664  INFO 12428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-23 13:25:00.667  INFO 12428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-23 13:25:00.669 DEBUG 12428 --- [main] o.apache.catalina.core.StandardContext   : Starting ROOT
+2022-05-23 13:25:00.676 DEBUG 12428 --- [main] o.apache.catalina.core.StandardContext   : Configuring default Resources
+2022-05-23 13:25:00.698 DEBUG 12428 --- [main] o.apache.catalina.core.StandardContext   : Processing standard container startup
+2022-05-23 13:25:00.699 DEBUG 12428 --- [main] org.apache.catalina.loader.WebappLoader  : Starting this Loader
+2022-05-23 13:25:00.744 DEBUG 12428 --- [main] o.a.c.authenticator.AuthenticatorBase    : No SingleSignOn Valve is present
+2022-05-23 13:25:00.744 DEBUG 12428 --- [main] o.apache.catalina.core.StandardContext   : No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+2022-05-23 13:25:00.751 DEBUG 12428 --- [main] o.apache.catalina.core.StandardContext   : Configured a manager of class [org.apache.catalina.session.StandardManager]
+2022-05-23 13:25:00.757  INFO 12428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-23 13:25:00.758 DEBUG 12428 --- [main] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-05-23 13:25:00.758  INFO 12428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1452 ms
+2022-05-23 13:25:00.762 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'requestContextFilter'
+2022-05-23 13:25:00.764 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'formContentFilter'
+2022-05-23 13:25:00.765 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2022-05-23 13:25:00.769 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'characterEncodingFilter'
+2022-05-23 13:25:00.776 DEBUG 12428 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-05-23 13:25:00.777 DEBUG 12428 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2022-05-23 13:25:00.779 DEBUG 12428 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardWrapper[dispatcherServlet] StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]
+2022-05-23 13:25:00.802 DEBUG 12428 --- [main] o.apache.catalina.core.StandardContext   : Configuring application event listeners
+2022-05-23 13:25:00.802 DEBUG 12428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Sending application start events
+2022-05-23 13:25:00.804 DEBUG 12428 --- [main] o.a.catalina.session.StandardManager     : Start: Loading persisted sessions
+2022-05-23 13:25:00.805 DEBUG 12428 --- [main] o.a.catalina.session.StandardManager     : Loading persisted sessions from [SESSIONS.ser]
+2022-05-23 13:25:00.805 DEBUG 12428 --- [main] o.a.catalina.session.StandardManager     : No persisted data file found
+2022-05-23 13:25:00.806 DEBUG 12428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Starting filters
+2022-05-23 13:25:00.806 DEBUG 12428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'requestContextFilter'
+2022-05-23 13:25:00.809 DEBUG 12428 --- [main] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
+2022-05-23 13:25:00.809 DEBUG 12428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2022-05-23 13:25:00.810 DEBUG 12428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'characterEncodingFilter'
+2022-05-23 13:25:00.810 DEBUG 12428 --- [main] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
+2022-05-23 13:25:00.812 DEBUG 12428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'formContentFilter'
+2022-05-23 13:25:00.813 DEBUG 12428 --- [main] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
+2022-05-23 13:25:00.813 DEBUG 12428 --- [main] o.apache.catalina.core.StandardContext   : Starting completed
+2022-05-23 13:25:00.816 DEBUG 12428 --- [main] org.apache.catalina.mapper.Mapper        : Registered host [localhost]
+2022-05-23 13:25:00.816 DEBUG 12428 --- [main] o.apache.catalina.mapper.MapperListener  : Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2022-05-23 13:25:00.817 DEBUG 12428 --- [main] o.apache.catalina.mapper.MapperListener  : Register Context [] for service [StandardService[Tomcat]]
+2022-05-23 13:25:00.817 DEBUG 12428 --- [main] o.apache.catalina.mapper.MapperListener  : Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2022-05-23 13:25:00.822 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisSentinelClusterApplication'
+2022-05-23 13:25:00.824 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisConfig'
+2022-05-23 13:25:00.825 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisTestController'
+2022-05-23 13:25:00.831 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'stringRedisTemplate'
+2022-05-23 13:25:00.831 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration'
+2022-05-23 13:25:00.832 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisConnectionFactory'
+2022-05-23 13:25:00.833 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration'
+2022-05-23 13:25:00.833 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties'
+2022-05-23 13:25:00.840 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' via constructor to bean named 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties'
+2022-05-23 13:25:00.842 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'lettuceClientResources'
+2022-05-23 13:25:00.848 DEBUG 12428 --- [main] i.n.u.i.logging.InternalLoggerFactory    : Using SLF4J as the default logging framework
+2022-05-23 13:25:00.853 DEBUG 12428 --- [main] i.l.c.r.AddressResolverGroupProvider     : Starting without optional netty's non-blocking DNS resolver library
+2022-05-23 13:25:00.855 DEBUG 12428 --- [main] i.l.c.resource.DefaultClientResources    : -Dio.netty.eventLoopThreads: 16
+2022-05-23 13:25:00.865 DEBUG 12428 --- [main] i.l.c.r.DefaultEventLoopGroupProvider    : Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2022-05-23 13:25:00.886 DEBUG 12428 --- [main] i.n.u.internal.InternalThreadLocalMap    : -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-23 13:25:00.886 DEBUG 12428 --- [main] i.n.u.internal.InternalThreadLocalMap    : -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-23 13:25:00.891 DEBUG 12428 --- [main] io.netty.util.ResourceLeakDetector       : -Dio.netty.leakDetection.level: simple
+2022-05-23 13:25:00.892 DEBUG 12428 --- [main] io.netty.util.ResourceLeakDetector       : -Dio.netty.leakDetection.targetRecords: 4
+2022-05-23 13:25:00.895 DEBUG 12428 --- [main] i.n.util.ResourceLeakDetectorFactory     : Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@56303b57
+2022-05-23 13:25:00.912 DEBUG 12428 --- [main] i.n.util.internal.PlatformDependent0     : -Dio.netty.noUnsafe: false
+2022-05-23 13:25:00.913 DEBUG 12428 --- [main] i.n.util.internal.PlatformDependent0     : Java version: 16
+2022-05-23 13:25:00.915 DEBUG 12428 --- [main] i.n.util.internal.PlatformDependent0     : sun.misc.Unsafe.theUnsafe: available
+2022-05-23 13:25:00.916 DEBUG 12428 --- [main] i.n.util.internal.PlatformDependent0     : sun.misc.Unsafe.copyMemory: available
+2022-05-23 13:25:00.916 DEBUG 12428 --- [main] i.n.util.internal.PlatformDependent0     : sun.misc.Unsafe.storeFence: available
+2022-05-23 13:25:00.917 DEBUG 12428 --- [main] i.n.util.internal.PlatformDependent0     : java.nio.Buffer.address: available
+2022-05-23 13:25:00.917 DEBUG 12428 --- [main] i.n.util.internal.PlatformDependent0     : direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-05-23 13:25:00.918 DEBUG 12428 --- [main] i.n.util.internal.PlatformDependent0     : java.nio.Bits.unaligned: available, true
+2022-05-23 13:25:00.921 DEBUG 12428 --- [main] i.n.util.internal.PlatformDependent0     : jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @34ce8af7
+2022-05-23 13:25:00.922 DEBUG 12428 --- [main] i.n.util.internal.PlatformDependent0     : java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-05-23 13:25:00.922 DEBUG 12428 --- [main] i.netty.util.internal.PlatformDependent  : sun.misc.Unsafe: available
+2022-05-23 13:25:00.923 DEBUG 12428 --- [main] i.netty.util.internal.PlatformDependent  : maxDirectMemory: 4280287232 bytes (maybe)
+2022-05-23 13:25:00.923 DEBUG 12428 --- [main] i.netty.util.internal.PlatformDependent  : -Dio.netty.tmpdir: C:\Users\mao\AppData\Local\Temp (java.io.tmpdir)
+2022-05-23 13:25:00.924 DEBUG 12428 --- [main] i.netty.util.internal.PlatformDependent  : -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-23 13:25:00.924 DEBUG 12428 --- [main] i.netty.util.internal.PlatformDependent  : Platform: Windows
+2022-05-23 13:25:00.925 DEBUG 12428 --- [main] i.netty.util.internal.PlatformDependent  : -Dio.netty.maxDirectMemory: -1 bytes
+2022-05-23 13:25:00.925 DEBUG 12428 --- [main] i.netty.util.internal.PlatformDependent  : -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-23 13:25:00.926 DEBUG 12428 --- [main] io.netty.util.internal.CleanerJava9      : java.nio.ByteBuffer.cleaner(): available
+2022-05-23 13:25:00.926 DEBUG 12428 --- [main] i.netty.util.internal.PlatformDependent  : -Dio.netty.noPreferDirect: false
+2022-05-23 13:25:00.935 DEBUG 12428 --- [main] i.netty.util.internal.PlatformDependent  : org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-23 13:25:00.944 DEBUG 12428 --- [main] reactor.util.Loggers                     : Using Slf4j logging framework
+2022-05-23 13:25:00.947 DEBUG 12428 --- [main] i.l.core.event.jfr.EventRecorderHolder   : Starting with JFR support
+2022-05-23 13:25:01.029 DEBUG 12428 --- [main] i.l.c.resource.DefaultClientResources    : LatencyUtils/HdrUtils are not available, metrics are disabled
+2022-05-23 13:25:01.032 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'redisConnectionFactory' via factory method to bean named 'lettuceClientResources'
+2022-05-23 13:25:01.040 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'lettuceClientConfigurationBuilderCustomizer'
+2022-05-23 13:25:01.135 DEBUG 12428 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'stringRedisTemplate' via factory method to bean named 'redisConnectionFactory'
+2022-05-23 13:25:01.179 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class [B as writing converter.
+2022-05-23 13:25:01.179 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.String as reading converter.
+2022-05-23 13:25:01.180 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Number to class [B as writing converter.
+2022-05-23 13:25:01.181 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Number as reading converter.
+2022-05-23 13:25:01.181 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Enum to class [B as writing converter.
+2022-05-23 13:25:01.181 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Enum as reading converter.
+2022-05-23 13:25:01.182 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Boolean to class [B as writing converter.
+2022-05-23 13:25:01.183 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Boolean as reading converter.
+2022-05-23 13:25:01.184 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class [B as writing converter.
+2022-05-23 13:25:01.184 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.Date as reading converter.
+2022-05-23 13:25:01.185 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.UUID to class [B as writing converter.
+2022-05-23 13:25:01.186 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.UUID as reading converter.
+2022-05-23 13:25:01.188 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+2022-05-23 13:25:01.188 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+2022-05-23 13:25:01.189 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class [B as writing converter.
+2022-05-23 13:25:01.190 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDate as reading converter.
+2022-05-23 13:25:01.190 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class [B as writing converter.
+2022-05-23 13:25:01.192 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalTime as reading converter.
+2022-05-23 13:25:01.193 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+2022-05-23 13:25:01.193 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+2022-05-23 13:25:01.194 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class [B as writing converter.
+2022-05-23 13:25:01.194 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Instant as reading converter.
+2022-05-23 13:25:01.195 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class [B as writing converter.
+2022-05-23 13:25:01.195 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZoneId as reading converter.
+2022-05-23 13:25:01.196 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class [B as writing converter.
+2022-05-23 13:25:01.198 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Period as reading converter.
+2022-05-23 13:25:01.200 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class [B as writing converter.
+2022-05-23 13:25:01.202 DEBUG 12428 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Duration as reading converter.
