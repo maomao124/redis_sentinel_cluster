@@ -1,0 +1,123 @@
+2022-05-23 13:18:41.832 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] javax.management.remote.rmi              : connectionId=rmi://118.251.210.210  2, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2022-05-23 13:18:41.833 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'stringRedisTemplate'
+2022-05-23 13:18:41.834 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration'
+2022-05-23 13:18:41.834 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] sun.rmi.server.call                      : RMI TCP Connection(1)-118.251.210.210: [118.251.210.210] exception: 
+
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2022-05-23 13:18:41.834 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'redisConnectionFactory'
+2022-05-23 13:18:41.835 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration'
+2022-05-23 13:18:41.835 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties'
+2022-05-23 13:18:41.836 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-118.251.210.210: (port 59988) op = 80
+2022-05-23 13:18:41.836 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] javax.management.remote.rmi              : [javax.management.remote.rmi.RMIConnectionImpl@308ec8f3: connectionId=rmi://118.251.210.210  2] closing.
+2022-05-23 13:18:41.836 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] javax.management.remote.rmi              : [javax.management.remote.rmi.RMIConnectionImpl@308ec8f3: connectionId=rmi://118.251.210.210  2] closed.
+2022-05-23 13:18:41.840 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' via constructor to bean named 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties'
+2022-05-23 13:18:41.842 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'lettuceClientResources'
+2022-05-23 13:18:41.844 DEBUG 11808 --- [main] i.n.u.i.logging.InternalLoggerFactory    : Using SLF4J as the default logging framework
+2022-05-23 13:18:41.846 DEBUG 11808 --- [main] i.l.c.r.AddressResolverGroupProvider     : Starting without optional netty's non-blocking DNS resolver library
+2022-05-23 13:18:41.847 DEBUG 11808 --- [main] i.l.c.resource.DefaultClientResources    : -Dio.netty.eventLoopThreads: 16
+2022-05-23 13:18:41.853 DEBUG 11808 --- [main] i.l.c.r.DefaultEventLoopGroupProvider    : Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2022-05-23 13:18:41.864 DEBUG 11808 --- [main] i.n.u.internal.InternalThreadLocalMap    : -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-05-23 13:18:41.864 DEBUG 11808 --- [main] i.n.u.internal.InternalThreadLocalMap    : -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-05-23 13:18:41.867 DEBUG 11808 --- [main] io.netty.util.ResourceLeakDetector       : -Dio.netty.leakDetection.level: simple
+2022-05-23 13:18:41.867 DEBUG 11808 --- [main] io.netty.util.ResourceLeakDetector       : -Dio.netty.leakDetection.targetRecords: 4
+2022-05-23 13:18:41.868 DEBUG 11808 --- [main] i.n.util.ResourceLeakDetectorFactory     : Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@30f74e79
+2022-05-23 13:18:41.871 DEBUG 11808 --- [main] i.n.util.internal.PlatformDependent0     : -Dio.netty.noUnsafe: false
+2022-05-23 13:18:41.871 DEBUG 11808 --- [main] i.n.util.internal.PlatformDependent0     : Java version: 16
+2022-05-23 13:18:41.872 DEBUG 11808 --- [main] i.n.util.internal.PlatformDependent0     : sun.misc.Unsafe.theUnsafe: available
+2022-05-23 13:18:41.872 DEBUG 11808 --- [main] i.n.util.internal.PlatformDependent0     : sun.misc.Unsafe.copyMemory: available
+2022-05-23 13:18:41.872 DEBUG 11808 --- [main] i.n.util.internal.PlatformDependent0     : sun.misc.Unsafe.storeFence: available
+2022-05-23 13:18:41.873 DEBUG 11808 --- [main] i.n.util.internal.PlatformDependent0     : java.nio.Buffer.address: available
+2022-05-23 13:18:41.873 DEBUG 11808 --- [main] i.n.util.internal.PlatformDependent0     : direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-05-23 13:18:41.873 DEBUG 11808 --- [main] i.n.util.internal.PlatformDependent0     : java.nio.Bits.unaligned: available, true
+2022-05-23 13:18:41.874 DEBUG 11808 --- [main] i.n.util.internal.PlatformDependent0     : jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5c909414
+2022-05-23 13:18:41.875 DEBUG 11808 --- [main] i.n.util.internal.PlatformDependent0     : java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-05-23 13:18:41.875 DEBUG 11808 --- [main] i.netty.util.internal.PlatformDependent  : sun.misc.Unsafe: available
+2022-05-23 13:18:41.875 DEBUG 11808 --- [main] i.netty.util.internal.PlatformDependent  : maxDirectMemory: 4280287232 bytes (maybe)
+2022-05-23 13:18:41.875 DEBUG 11808 --- [main] i.netty.util.internal.PlatformDependent  : -Dio.netty.tmpdir: C:\Users\mao\AppData\Local\Temp (java.io.tmpdir)
+2022-05-23 13:18:41.875 DEBUG 11808 --- [main] i.netty.util.internal.PlatformDependent  : -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-05-23 13:18:41.876 DEBUG 11808 --- [main] i.netty.util.internal.PlatformDependent  : Platform: Windows
+2022-05-23 13:18:41.876 DEBUG 11808 --- [main] i.netty.util.internal.PlatformDependent  : -Dio.netty.maxDirectMemory: -1 bytes
+2022-05-23 13:18:41.877 DEBUG 11808 --- [main] i.netty.util.internal.PlatformDependent  : -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-05-23 13:18:41.877 DEBUG 11808 --- [main] io.netty.util.internal.CleanerJava9      : java.nio.ByteBuffer.cleaner(): available
+2022-05-23 13:18:41.877 DEBUG 11808 --- [main] i.netty.util.internal.PlatformDependent  : -Dio.netty.noPreferDirect: false
+2022-05-23 13:18:41.878 DEBUG 11808 --- [main] i.netty.util.internal.PlatformDependent  : org.jctools-core.MpscChunkedArrayQueue: available
+2022-05-23 13:18:41.885 DEBUG 11808 --- [main] reactor.util.Loggers                     : Using Slf4j logging framework
+2022-05-23 13:18:41.887 DEBUG 11808 --- [main] i.l.core.event.jfr.EventRecorderHolder   : Starting with JFR support
+2022-05-23 13:18:41.899 DEBUG 11808 --- [main] i.l.c.resource.DefaultClientResources    : LatencyUtils/HdrUtils are not available, metrics are disabled
+2022-05-23 13:18:41.901 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'redisConnectionFactory' via factory method to bean named 'lettuceClientResources'
+2022-05-23 13:18:41.906 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'lettuceClientConfigurationBuilderCustomizer'
+2022-05-23 13:18:41.946 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Autowiring by type from bean name 'stringRedisTemplate' via factory method to bean named 'redisConnectionFactory'
+2022-05-23 13:18:41.967 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class [B as writing converter.
+2022-05-23 13:18:41.968 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.String as reading converter.
+2022-05-23 13:18:41.968 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Number to class [B as writing converter.
+2022-05-23 13:18:41.968 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Number as reading converter.
+2022-05-23 13:18:41.969 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Enum to class [B as writing converter.
+2022-05-23 13:18:41.969 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Enum as reading converter.
+2022-05-23 13:18:41.969 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Boolean to class [B as writing converter.
+2022-05-23 13:18:41.969 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.Boolean as reading converter.
+2022-05-23 13:18:41.969 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class [B as writing converter.
+2022-05-23 13:18:41.969 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.Date as reading converter.
+2022-05-23 13:18:41.969 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.UUID to class [B as writing converter.
+2022-05-23 13:18:41.970 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.util.UUID as reading converter.
+2022-05-23 13:18:41.970 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+2022-05-23 13:18:41.970 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+2022-05-23 13:18:41.970 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class [B as writing converter.
+2022-05-23 13:18:41.970 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalDate as reading converter.
+2022-05-23 13:18:41.970 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class [B as writing converter.
+2022-05-23 13:18:41.971 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.LocalTime as reading converter.
+2022-05-23 13:18:41.971 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+2022-05-23 13:18:41.971 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+2022-05-23 13:18:41.971 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class [B as writing converter.
+2022-05-23 13:18:41.971 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Instant as reading converter.
+2022-05-23 13:18:41.971 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class [B as writing converter.
+2022-05-23 13:18:41.971 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.ZoneId as reading converter.
+2022-05-23 13:18:41.972 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class [B as writing converter.
+2022-05-23 13:18:41.972 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Period as reading converter.
+2022-05-23 13:18:41.972 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class [B as writing converter.
+2022-05-23 13:18:41.972 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.time.Duration as reading converter.
+2022-05-23 13:18:41.973 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+2022-05-23 13:18:41.973 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+2022-05-23 13:18:41.973 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+2022-05-23 13:18:41.973 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+2022-05-23 13:18:41.973 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+2022-05-23 13:18:41.974 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+2022-05-23 13:18:41.974 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+2022-05-23 13:18:41.974 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+2022-05-23 13:18:41.974 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+2022-05-23 13:18:41.974 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+2022-05-23 13:18:41.974 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+2022-05-23 13:18:41.975 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+2022-05-23 13:18:41.975 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+2022-05-23 13:18:41.975 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+2022-05-23 13:18:41.975 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class java.lang.String as writing converter.
+2022-05-23 13:18:41.975 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Period as reading converter.
+2022-05-23 13:18:41.975 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+2022-05-23 13:18:41.975 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+2022-05-23 13:18:41.976 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+2022-05-23 13:18:41.977 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class [B as writing converter.
+2022-05-23 13:18:41.977 DEBUG 11808 --- [main] o.s.data.convert.CustomConversions       : Adding converter from class [B to class java.lang.String as reading converter.

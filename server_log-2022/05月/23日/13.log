@@ -1,0 +1,88 @@
+2022-05-23 13:12:41.926 DEBUG 18484 --- [SpringApplicationShutdownHook] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-05-23 13:12:41.927 DEBUG 18484 --- [SpringApplicationShutdownHook] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cde6747, started on Mon May 23 13:11:03 CST 2022
+2022-05-23 13:12:41.928 DEBUG 18484 --- [SpringApplicationShutdownHook] ySourcesPropertyResolver$DefaultResolver : Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2022-05-23 13:12:41.929 DEBUG 18484 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2022-05-23 13:12:41.930 DEBUG 18484 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2022-05-23 13:12:41.930 DEBUG 18484 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483646
+2022-05-23 13:12:41.964 DEBUG 18484 --- [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2022-05-23 13:12:41.964 DEBUG 18484 --- [SpringApplicationShutdownHook] o.s.d.r.l.RedisMessageListenerContainer  : Stopped RedisMessageListenerContainer.
+2022-05-23 13:12:41.964 DEBUG 18484 --- [SpringApplicationShutdownHook] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2022-05-23 13:12:41.965 DEBUG 18484 --- [SpringApplicationShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-23 13:12:41.966 DEBUG 18484 --- [SpringApplicationShutdownHook] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-23 13:12:41.966 DEBUG 18484 --- [SpringApplicationShutdownHook] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-23 13:12:41.966 DEBUG 18484 --- [SpringApplicationShutdownHook] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xed34dd9c, /127.0.0.1:59682 -> /127.0.0.1:7003, epid=0xa] closeAsync()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [SpringApplicationShutdownHook] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [SpringApplicationShutdownHook] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xc9e7a5b9, /127.0.0.1:59680 -> /127.0.0.1:7002, epid=0x9] closeAsync()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [SpringApplicationShutdownHook] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [SpringApplicationShutdownHook] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x6afcf739, /127.0.0.1:59619 -> /127.0.0.1:7001, epid=0x8] closeAsync()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0xed34dd9c, /127.0.0.1:59682 -> /127.0.0.1:7003, epid=0xa, chid=0xa] channelInactive()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0xc9e7a5b9, /127.0.0.1:59680 -> /127.0.0.1:7002, epid=0x9, chid=0x9] channelInactive()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-10] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xed34dd9c, /127.0.0.1:59682 -> /127.0.0.1:7003, epid=0xa] deactivating endpoint handler
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x6afcf739, /127.0.0.1:59619 -> /127.0.0.1:7001, epid=0x8, chid=0x8] channelInactive()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-9] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xc9e7a5b9, /127.0.0.1:59680 -> /127.0.0.1:7002, epid=0x9] deactivating endpoint handler
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0xed34dd9c, /127.0.0.1:59682 -> /127.0.0.1:7003, epid=0xa, chid=0xa] channelInactive() done
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-8] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x6afcf739, /127.0.0.1:59619 -> /127.0.0.1:7001, epid=0x8] deactivating endpoint handler
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0xc9e7a5b9, /127.0.0.1:59680 -> /127.0.0.1:7002, epid=0x9, chid=0x9] channelInactive() done
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x6afcf739, /127.0.0.1:59619 -> /127.0.0.1:7001, epid=0x8, chid=0x8] channelInactive() done
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ConnectionWatchdog     : [channel=0xed34dd9c, /127.0.0.1:59682 -> /127.0.0.1:7003, last known addr=/127.0.0.1:7003] channelInactive()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-10] i.l.core.protocol.ConnectionWatchdog     : [channel=0xed34dd9c, /127.0.0.1:59682 -> /127.0.0.1:7003, last known addr=/127.0.0.1:7003] Reconnect scheduling disabled
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ConnectionWatchdog     : [channel=0xc9e7a5b9, /127.0.0.1:59680 -> /127.0.0.1:7002, last known addr=/127.0.0.1:7002] channelInactive()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-10] io.lettuce.core.protocol.CommandHandler  : [channel=0xed34dd9c, /127.0.0.1:59682 -> /127.0.0.1:7003, epid=0xa, chid=0xa] channelUnregistered()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-9] i.l.core.protocol.ConnectionWatchdog     : [channel=0xc9e7a5b9, /127.0.0.1:59680 -> /127.0.0.1:7002, last known addr=/127.0.0.1:7002] Reconnect scheduling disabled
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ConnectionWatchdog     : [channel=0x6afcf739, /127.0.0.1:59619 -> /127.0.0.1:7001, last known addr=/127.0.0.1:7001] channelInactive()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-8] i.l.core.protocol.ConnectionWatchdog     : [channel=0x6afcf739, /127.0.0.1:59619 -> /127.0.0.1:7001, last known addr=/127.0.0.1:7001] Reconnect scheduling disabled
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-9] io.lettuce.core.protocol.CommandHandler  : [channel=0xc9e7a5b9, /127.0.0.1:59680 -> /127.0.0.1:7002, epid=0x9, chid=0x9] channelUnregistered()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [lettuce-nioEventLoop-4-8] io.lettuce.core.protocol.CommandHandler  : [channel=0x6afcf739, /127.0.0.1:59619 -> /127.0.0.1:7001, epid=0x8, chid=0x8] channelUnregistered()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [SpringApplicationShutdownHook] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-23 13:12:41.967 DEBUG 18484 --- [SpringApplicationShutdownHook] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x3258bbce, /127.0.0.1:59616 -> /127.0.0.1:7501, epid=0x5] closeAsync()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [SpringApplicationShutdownHook] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [SpringApplicationShutdownHook] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x8cfa44a0, /127.0.0.1:59618 -> /127.0.0.1:7503, epid=0x7] closeAsync()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [SpringApplicationShutdownHook] io.lettuce.core.RedisChannelHandler      : closeAsync()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [SpringApplicationShutdownHook] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xfe92fff0, /127.0.0.1:59617 -> /127.0.0.1:7502, epid=0x6] closeAsync()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0x8cfa44a0, /127.0.0.1:59618 -> /127.0.0.1:7503, epid=0x7, chid=0x7] channelInactive()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0x3258bbce, /127.0.0.1:59616 -> /127.0.0.1:7501, epid=0x5, chid=0x5] channelInactive()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-7] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x8cfa44a0, /127.0.0.1:59618 -> /127.0.0.1:7503, epid=0x7] deactivating endpoint handler
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xfe92fff0, /127.0.0.1:59617 -> /127.0.0.1:7502, epid=0x6, chid=0x6] channelInactive()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-5] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0x3258bbce, /127.0.0.1:59616 -> /127.0.0.1:7501, epid=0x5] deactivating endpoint handler
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0x8cfa44a0, /127.0.0.1:59618 -> /127.0.0.1:7503, epid=0x7, chid=0x7] channelInactive() done
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-6] i.lettuce.core.protocol.DefaultEndpoint  : [channel=0xfe92fff0, /127.0.0.1:59617 -> /127.0.0.1:7502, epid=0x6] deactivating endpoint handler
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0x3258bbce, /127.0.0.1:59616 -> /127.0.0.1:7501, epid=0x5, chid=0x5] channelInactive() done
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xfe92fff0, /127.0.0.1:59617 -> /127.0.0.1:7502, epid=0x6, chid=0x6] channelInactive() done
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ConnectionWatchdog     : [channel=0x8cfa44a0, /127.0.0.1:59618 -> /127.0.0.1:7503, last known addr=/127.0.0.1:7503] channelInactive()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-7] i.l.core.protocol.ConnectionWatchdog     : [channel=0x8cfa44a0, /127.0.0.1:59618 -> /127.0.0.1:7503, last known addr=/127.0.0.1:7503] Reconnect scheduling disabled
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ConnectionWatchdog     : [channel=0x3258bbce, /127.0.0.1:59616 -> /127.0.0.1:7501, last known addr=/127.0.0.1:7501] channelInactive()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ConnectionWatchdog     : [channel=0xfe92fff0, /127.0.0.1:59617 -> /127.0.0.1:7502, last known addr=/127.0.0.1:7502] channelInactive()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-5] i.l.core.protocol.ConnectionWatchdog     : [channel=0x3258bbce, /127.0.0.1:59616 -> /127.0.0.1:7501, last known addr=/127.0.0.1:7501] Reconnect scheduling disabled
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-7] io.lettuce.core.protocol.CommandHandler  : [channel=0x8cfa44a0, /127.0.0.1:59618 -> /127.0.0.1:7503, epid=0x7, chid=0x7] channelUnregistered()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-5] io.lettuce.core.protocol.CommandHandler  : [channel=0x3258bbce, /127.0.0.1:59616 -> /127.0.0.1:7501, epid=0x5, chid=0x5] channelUnregistered()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-6] i.l.core.protocol.ConnectionWatchdog     : [channel=0xfe92fff0, /127.0.0.1:59617 -> /127.0.0.1:7502, last known addr=/127.0.0.1:7502] Reconnect scheduling disabled
+2022-05-23 13:12:41.968 DEBUG 18484 --- [lettuce-nioEventLoop-4-6] io.lettuce.core.protocol.CommandHandler  : [channel=0xfe92fff0, /127.0.0.1:59617 -> /127.0.0.1:7502, epid=0x6, chid=0x6] channelUnregistered()
+2022-05-23 13:12:41.968 DEBUG 18484 --- [SpringApplicationShutdownHook] io.lettuce.core.AbstractRedisClient      : Initiate shutdown (100, 100, MILLISECONDS)
+2022-05-23 13:12:41.971 DEBUG 18484 --- [SpringApplicationShutdownHook] i.l.c.r.DefaultEventLoopGroupProvider    : Release executor io.netty.channel.nio.NioEventLoopGroup@4caaf0d6
+2022-05-23 13:12:41.971 DEBUG 18484 --- [lettuce-nioEventLoop-4-3] io.netty.buffer.PoolThreadCache          : Freed 5 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-3
+2022-05-23 13:12:41.971 DEBUG 18484 --- [lettuce-nioEventLoop-4-4] io.netty.buffer.PoolThreadCache          : Freed 5 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-4
+2022-05-23 13:12:41.971 DEBUG 18484 --- [lettuce-nioEventLoop-4-2] io.netty.buffer.PoolThreadCache          : Freed 5 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-2
+2022-05-23 13:12:41.971 DEBUG 18484 --- [lettuce-nioEventLoop-4-1] io.netty.buffer.PoolThreadCache          : Freed 6 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2022-05-23 13:12:42.086 DEBUG 18484 --- [lettuce-nioEventLoop-4-9] io.netty.buffer.PoolThreadCache          : Freed 5 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-9
+2022-05-23 13:12:42.086 DEBUG 18484 --- [lettuce-nioEventLoop-4-10] io.netty.buffer.PoolThreadCache          : Freed 3 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-10
+2022-05-23 13:12:42.086 DEBUG 18484 --- [lettuce-nioEventLoop-4-8] io.netty.buffer.PoolThreadCache          : Freed 5 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-8
+2022-05-23 13:12:42.086 DEBUG 18484 --- [lettuce-nioEventLoop-4-7] io.netty.buffer.PoolThreadCache          : Freed 5 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-7
+2022-05-23 13:12:42.086 DEBUG 18484 --- [lettuce-nioEventLoop-4-6] io.netty.buffer.PoolThreadCache          : Freed 5 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-6
+2022-05-23 13:12:42.086 DEBUG 18484 --- [lettuce-nioEventLoop-4-5] io.netty.buffer.PoolThreadCache          : Freed 5 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-5
+2022-05-23 13:12:42.086 DEBUG 18484 --- [SpringApplicationShutdownHook] i.l.c.resource.DefaultClientResources    : Initiate shutdown (0, 2, SECONDS)
+2022-05-23 13:12:42.087 DEBUG 18484 --- [SpringApplicationShutdownHook] i.l.c.r.DefaultEventLoopGroupProvider    : Initiate shutdown (0, 2, SECONDS)
+2022-05-23 13:18:40.922  INFO 11808 --- [main] m.r.RedisSentinelClusterApplication      : Starting RedisSentinelClusterApplication using Java 16.0.2 on mao with PID 11808 (H:\程序\大三下期\redis哨兵集群\target\classes started by mao in H:\程序\大三下期\redis哨兵集群)
+2022-05-23 13:18:40.923 DEBUG 11808 --- [main] m.r.RedisSentinelClusterApplication      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-23 13:18:40.924  INFO 11808 --- [main] m.r.RedisSentinelClusterApplication      : The following 1 profile is active: "dev"
+2022-05-23 13:18:40.925 DEBUG 11808 --- [main] o.s.boot.SpringApplication               : Loading source class mao.redis_sentinel_cluster.RedisSentinelClusterApplication
+2022-05-23 13:18:40.965 DEBUG 11808 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cde6747
+2022-05-23 13:18:40.980 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-05-23 13:18:40.988 DEBUG 11808 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2022-05-23 13:18:41.027 DEBUG 11808 --- [main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [H:\程序\大三下期\redis哨兵集群\target\classes\mao\redis_sentinel_cluster\config\RedisConfig.class]
+2022-05-23 13:18:41.034 DEBUG 11808 --- [main] o.s.c.a.ClassPathBeanDefinitionScanner   : Identified candidate component class: file [H:\程序\大三下期\redis哨兵集群\target\classes\mao\redis_sentinel_cluster\controller\RedisTestController.class]
+2022-05-23 13:18:41.282 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-118.251.210.210: accepted socket from [118.251.210.210:59990]
+2022-05-23 13:18:41.285 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-118.251.210.210: (port 59988) op = 80
+2022-05-23 13:18:41.290 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] sun.rmi.loader                           : RMI TCP Connection(1)-118.251.210.210: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2e2ca73e
+2022-05-23 13:18:41.290 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] sun.rmi.loader                           : RMI TCP Connection(1)-118.251.210.210: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2e2ca73e
+2022-05-23 13:18:41.291 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] sun.rmi.loader                           : RMI TCP Connection(1)-118.251.210.210: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2e2ca73e
+2022-05-23 13:18:41.292 DEBUG 11808 --- [RMI TCP Connection(1)-118.251.210.210] sun.rmi.loader                           : RMI TCP Connection(1)-118.251.210.210: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@2e2ca73e
